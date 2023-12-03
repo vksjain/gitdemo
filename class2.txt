@@ -1,0 +1,13 @@
+>>> ip = "10.20.10.1"
+>>> newip = ip.split(".")
+>>> newip
+['10', '20', '10', '1']
+>>> 
+>>> 
+>>> cntr = 0
+>>> 
+>>> for item in newip:
+...     if item == "10":
+...             print(cntr)
+...     cntr = cntr + 1
+
